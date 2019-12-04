@@ -1,0 +1,17 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "API\\": "src/",
+            "UnitTest\\": "tests/unit/"
+        },
+        "files": ["bootstrap.php"]
+    },
+     "config": {
+        "disable-tls": true,
+        "secure-http": false
+    }
+}
+
